@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+:root {
+  --primary: #F6F7EB;
+}
+
+#banner-container {
+  text-align: right;
+}
+
+#banner-container img {
+  margin-right: -15px;
+}
+
+#banner-container, #form-container {
+  flex: 1 1 0;
+  width: 50%;
+}
+
+#form-container {
+  text-align: center;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
