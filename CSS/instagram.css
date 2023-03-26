@@ -9,15 +9,15 @@
   --primary: #F6F7EB;
 }
 
-#banner-container {
+main > div > span {
   text-align: right;
 }
 
-#banner-container img {
+main > div > span img {
   margin-right: -15px;
 }
 
-#banner-container, #form-container {
+main > div > span, #form-container {
   flex: 1 1 0;
   width: 50%;
 }
@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-#main-container {
+main > div:nth-child(1) {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
