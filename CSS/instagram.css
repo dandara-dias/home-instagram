@@ -48,9 +48,9 @@ main > div:nth-child(1) {
 }
 
 #copyright {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--secondary);
-  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #facebook-login {
@@ -81,6 +81,12 @@ main > div:nth-child(1) {
   text-decoration: none;
   color: var(--secondary);
   font-size: 12px;
+}
+
+#footer-option {
+  margin-top: 15px;
+  margin-left: 345px;
+  display: flex;
 }
 
 #forgot-pass {
@@ -155,6 +161,15 @@ main > div:nth-child(1) {
 #get-app-container p {
   margin: 20px 0;
   font-size: 13px;
+}
+
+#languages {
+  color: var(--secondary);
+  border: none;
+}
+
+#languages:focus {
+  outline: 0;
 }
 
 #register-container {
