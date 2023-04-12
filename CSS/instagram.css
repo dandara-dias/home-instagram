@@ -73,7 +73,7 @@ main > div:nth-child(1) {
   margin-top: 30px;
 }
 
-#form-box #logo-insta {
+#form-box > img {
   width: 175px;
   height: 51px;
   margin: 30px auto 12px;
@@ -84,7 +84,7 @@ main > div:nth-child(1) {
   text-align: center;
 }
 
-#login-form input {
+#form-box > form input {
   display: block;
   font-size: 12px;
   padding: 12px 9px;
@@ -95,7 +95,11 @@ main > div:nth-child(1) {
   margin: 5px auto;
 }
 
-#login-form input[type="submit"] {
+#form-box > form input:focus {
+  outline: 0;
+}
+
+#form-box > form input[type="submit"] {
   background-color: var(--terciary);
   color: var(--primary);
   margin-top: 15px;
