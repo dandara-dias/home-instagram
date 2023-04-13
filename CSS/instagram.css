@@ -209,3 +209,27 @@ main > div:nth-child(1) {
   font-weight: bold;
   background-color: var(--primary);
 }
+
+@media(max-width: 450px) {
+  footer {
+    width: 90%;
+    text-align: center;
+  }
+  
+  main > div > span {
+    display: none;
+  }
+
+  #footer-link li {
+    margin-bottom: 10px;
+  }
+
+  #form-box {
+    margin-top: 0;
+  }
+
+  #form-container, #form-box, #register-container, #get-app-container {
+    width: 100%;
+    border: none;
+  }
+}
