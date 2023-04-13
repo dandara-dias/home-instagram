@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica;
+  background-color: var(--primary);
 }
 
 :root {
-  --primary: #F6F7EB;
+  --primary: #F7F7F7;
   --secondary: #999999;
   --terciary: #45B8ED;
   --details: #484B70;
@@ -220,8 +221,16 @@ main > div:nth-child(1) {
     display: none;
   }
 
+  #copyright {
+    font-size: 11px;
+  }
+
   #footer-link li {
     margin-bottom: 10px;
+  }
+
+  #footer-option {
+    margin-left: auto;
   }
 
   #form-box {
